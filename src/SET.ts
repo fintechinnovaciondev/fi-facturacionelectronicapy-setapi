@@ -355,7 +355,7 @@ class SET {
    */
   consultaLote(
     id: number,
-    numeroProtocolo: number,
+    numeroProtocolo: any,
     env: "test" | "prod",
     certificado: any,
     passphase: any,

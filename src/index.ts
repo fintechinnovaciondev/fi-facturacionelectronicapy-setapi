@@ -24,7 +24,7 @@ class SetAPI {
   };
   consultaLote = (
     id: number,
-    numeroLote: number,
+    numeroLote: any,
     env: "test" | "prod",
     cert: any,
     key: string,
